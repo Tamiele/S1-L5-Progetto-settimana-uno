@@ -1,0 +1,149 @@
+/* IMPOSTAZIONI GENERALI */
+.body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+}
+.body {
+  text-align: center;
+  color: #393d41;
+  line-height: 1.65;
+  font-family: open sans;
+}
+/* HEADER */
+header {
+  background-color: black;
+  box-sizing: border-box;
+}
+.logo {
+  width: 110px;
+  padding: 1rem;
+}
+.titolo {
+  background-image: url(../images/banner.jpg);
+  background-size: 100%;
+}
+.titolo h1 {
+  padding-block: 2rem;
+  color: #299fca;
+  font-weight: bold;
+}
+
+.titolo p {
+  margin-inline: 1rem;
+}
+.button {
+  margin-block: 1rem;
+  padding-inline: 16px;
+  padding-block: 4px;
+  border-radius: 9%;
+  background-color: #f04c2f;
+  color: white;
+  font-weight: bold;
+  font-family: Montserrat;
+}
+/* MAIN */
+
+.blocco-1 p {
+  padding-inline: 64px;
+}
+#h3 {
+  margin-block: 8px;
+  font-weight: bold;
+  color: #299fca;
+}
+.notebook {
+  margin-top: 1rem;
+  width: 350px;
+  border-radius: 100%;
+}
+
+.h3 {
+  color: #299fca;
+}
+
+.blocco-3 {
+  background-color: #f04c2f;
+  color: white;
+  margin-block: 1rem;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+}
+
+.blocco-3 h2 {
+  font-weight: bold;
+  font-size: 21px;
+  margin-block: 1rem;
+  padding-block: 1rem;
+}
+.blocco-3 p {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+.blocco-4 {
+  border: solid thin #dee1e3;
+  margin: 1rem;
+}
+.blocco-4 img {
+  width: 100%;
+}
+.blocco-4 p {
+  padding-bottom: 1rem;
+}
+.blocco-5 {
+  border: solid thin #dee1e3;
+  margin: 1rem;
+}
+.blocco-5 img {
+  width: 100%;
+}
+.blocco-5 p {
+  padding-bottom: 1rem;
+}
+.blocco-6 {
+  border: solid thin #dee1e3;
+  margin: 1rem;
+}
+.blocco-6 img {
+  width: 100%;
+}
+.blocco-6 p {
+  padding-bottom: 1rem;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+
+footer {
+  background-color: #25a2c3;
+  color: white;
+  padding: 2rem;
+}
+footer h2 {
+  font-weight: bold;
+  margin: 1rem;
+}
+.link {
+  margin: 1rem;
+}
+.link a {
+  color: #c8e7f0;
+}
+
+footer span {
+  border-top: solid thin #ffffff;
+}
+
+footer a {
+  color: #c8e7f0;
+}
