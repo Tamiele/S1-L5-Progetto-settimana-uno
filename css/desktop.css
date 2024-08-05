@@ -2,15 +2,15 @@
 * {
   box-sizing: border-box;
 }
-.body,
+
 h1,
 h2,
 h3,
 h4 {
   line-height: 1.5em;
 }
+
 .body {
-  text-align: center;
   color: #393d41;
   line-height: 1.65;
   font-family: open sans;
@@ -21,12 +21,15 @@ header {
   background-color: black;
 }
 .logo {
-  width: 150px;
-  padding: 1rem;
+  width: 200px;
+  padding: 2rem;
 }
 .titolo {
   background-image: url(../images/banner.jpg);
   background-size: 100%;
+  text-align: center;
+  padding: 10.5rem;
+  background-size: cover;
 }
 .titolo h1 {
   padding: 1rem;
@@ -34,12 +37,11 @@ header {
   font-weight: bold;
   padding-block: 1rem;
   padding-inline: 7rem;
+  font-size: 2rem;
 }
-
 .titolo p {
-  margin-inline: 8px;
-  padding-inline: 24px;
-  margin-top: -14px;
+  margin-inline: 15rem;
+  margin-bottom: 1rem;
 }
 .button {
   margin-block: 1rem;
@@ -52,37 +54,38 @@ header {
   font-family: Montserrat;
   border: none;
 }
-/* MAIN */
-.blocco-1 p {
-  margin-bottom: 2rem;
-  padding-inline: 64px;
+
+/*MAIN*/
+.blocco-1 {
+  margin-block: 2rem;
+}
+.box-1 {
+  margin-left: 3rem;
+  width: 50%;
+  display: inline-block;
+  border: solid white;
 }
 
+.notebook {
+  margin-top: 1rem;
+  width: 50%;
+  border-radius: 100%;
+  display: inline-block;
+}
 #h3 {
   margin-top: 2rem;
   margin-bottom: 10px;
   font-weight: bold;
   color: #299fca;
 }
-.notebook {
-  margin-top: 1rem;
-  width: 350px;
-  border-radius: 100%;
-}
-.blocco-2 p {
-  margin-inline: 1rem;
-}
-.h3 {
-  color: #299fca;
-}
 .blocco-3 {
+  text-align: center;
   background-color: #f04c2f;
   color: white;
   margin-block: 1rem;
-  padding-block: 1rem;
+  padding-block: 3rem;
   padding-inline: 1rem;
 }
-
 .blocco-3 h2 {
   font-weight: bold;
   font-size: 21px;
@@ -94,9 +97,9 @@ header {
   font-style: italic;
   font-size: 16px;
 }
+/* FOOTER */
 .blocco-4 {
   border: solid thin #dee1e3;
-  margin: 1rem;
 }
 .blocco-4 img {
   width: 100%;
@@ -106,17 +109,15 @@ header {
 }
 .blocco-5 {
   border: solid thin #dee1e3;
-  margin: 1rem;
 }
 .blocco-5 img {
   width: 100%;
 }
 .blocco-5 p {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 .blocco-6 {
   border: solid thin #dee1e3;
-  margin: 1rem;
 }
 .blocco-6 img {
   width: 100%;
@@ -124,10 +125,15 @@ header {
 .blocco-6 p {
   padding-bottom: 1rem;
 }
+.box-2 {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
 
-/* FOOTER */
-
+/*footer*/
 footer {
+  text-align: center;
   background-color: #25a2c3;
   color: white;
   padding: 2rem;
@@ -141,7 +147,7 @@ footer h2 {
   border-top: solid thin #ffffff;
   margin: 1rem;
   margin-bottom: 1.5rem;
-  margin-inline: 4rem;
+  margin-inline: 37rem;
 }
 
 footer a {
