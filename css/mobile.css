@@ -1,26 +1,27 @@
 /* IMPOSTAZIONI GENERALI */
+* {
+  box-sizing: border-box;
+}
 .body,
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
-  line-height: 1.5;
+h4 {
+  line-height: 1.5em;
 }
 .body {
   text-align: center;
   color: #393d41;
   line-height: 1.65;
   font-family: open sans;
+  font-size: 1.2rem;
 }
 /* HEADER */
 header {
   background-color: black;
-  box-sizing: border-box;
 }
 .logo {
-  width: 110px;
+  width: 150px;
   padding: 1rem;
 }
 .titolo {
@@ -28,31 +29,39 @@ header {
   background-size: 100%;
 }
 .titolo h1 {
-  padding-block: 2rem;
+  padding: 1rem;
   color: #299fca;
   font-weight: bold;
+  padding-block: 1rem;
+  padding-inline: 7rem;
 }
 
 .titolo p {
-  margin-inline: 1rem;
+  margin-inline: 8px;
+  padding-inline: 24px;
+  margin-top: -14px;
 }
 .button {
   margin-block: 1rem;
-  padding-inline: 16px;
-  padding-block: 4px;
-  border-radius: 9%;
+  padding-inline: 20px;
+  padding-block: 8px;
+  border-radius: 3%;
   background-color: #f04c2f;
   color: white;
   font-weight: bold;
   font-family: Montserrat;
+  border: none;
 }
 /* MAIN */
-
+.blocco-1 p {
+  margin-bottom: 2rem;
+}
 .blocco-1 p {
   padding-inline: 64px;
 }
 #h3 {
-  margin-block: 8px;
+  margin-top: 2rem;
+  margin-bottom: 10px;
   font-weight: bold;
   color: #299fca;
 }
@@ -61,11 +70,12 @@ header {
   width: 350px;
   border-radius: 100%;
 }
-
+.blocco-2 p {
+  margin-inline: 1rem;
+}
 .h3 {
   color: #299fca;
 }
-
 .blocco-3 {
   background-color: #f04c2f;
   color: white;
@@ -83,6 +93,7 @@ header {
 .blocco-3 p {
   margin-bottom: 10px;
   font-style: italic;
+  font-size: 16px;
 }
 .blocco-4 {
   border: solid thin #dee1e3;
@@ -102,7 +113,7 @@ header {
   width: 100%;
 }
 .blocco-5 p {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 .blocco-6 {
   border: solid thin #dee1e3;
@@ -114,13 +125,6 @@ header {
 .blocco-6 p {
   padding-bottom: 1rem;
 }
-/* ELEMENTI NEL MAIN - ARTICLE */
-
-/* TABELLE */
-
-/* FORM */
-
-/* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
 
@@ -132,18 +136,30 @@ footer {
 footer h2 {
   font-weight: bold;
   margin: 1rem;
+  font-size: 20px;
+}
+.bordo {
+  border-top: solid thin #ffffff;
+  margin: 1rem;
+  margin-bottom: 1.5rem;
+  margin-inline: 4rem;
+}
+
+footer a {
+  color: #c8e7f0;
 }
 .link {
-  margin: 1rem;
+  margin-block: 2rem;
 }
 .link a {
   color: #c8e7f0;
 }
-
-footer span {
-  border-top: solid thin #ffffff;
+.link span {
+  color: #c8e7f0;
 }
-
-footer a {
+.link i {
+  color: white;
+}
+footer span {
   color: #c8e7f0;
 }
