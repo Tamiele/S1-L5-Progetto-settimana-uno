@@ -56,24 +56,23 @@ header {
 }
 
 /*MAIN*/
-.blocco-1 {
-  margin-block: 2rem;
-}
+
 .box-1 {
-  margin-left: 3rem;
   width: 50%;
   display: inline-block;
-  border: solid white;
+  margin-block: 1rem;
+}
+.articolo {
+  padding-inline: 9rem;
 }
 
 .notebook {
-  margin-top: 1rem;
-  width: 50%;
+  margin-left: 10rem;
   border-radius: 100%;
-  display: inline-block;
+  width: 450px;
 }
 #h3 {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 10px;
   font-weight: bold;
   color: #299fca;
@@ -127,12 +126,14 @@ header {
 }
 .box-2 {
   display: inline-block;
-  width: 33%;
+  width: 30%;
   text-align: center;
+  margin: 1rem;
 }
 
 /*footer*/
 footer {
+  margin-top: 1rem;
   text-align: center;
   background-color: #25a2c3;
   color: white;
