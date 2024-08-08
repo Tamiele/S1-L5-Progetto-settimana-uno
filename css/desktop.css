@@ -53,27 +53,37 @@ header {
   font-weight: bold;
   font-family: Montserrat;
   border: none;
+  cursor: pointer;
 }
 
 /*MAIN*/
 
 .box-1 {
-  width: 700px;
-  height: 100%;
+  width: 49%;
   display: inline-block;
   margin-block: 3rem;
   margin-inline: 2px;
   border: 1px;
+  text-align: end;
+}
+.box-2 {
+  width: 49%;
+  display: inline-block;
+  margin-block: 3rem;
+  margin-inline: 2px;
+  border: 1px;
+  text-align: start;
 }
 .articolo {
-  padding-inline: 88px;
+  padding-left: 60px;
+  padding-right: 195px;
+  text-align: start;
 }
 
 .notebook {
   border-radius: 100%;
-  margin-left: 18rem;
 }
-#h3 {
+.h3 {
   margin-top: 1rem;
   margin-bottom: 10px;
   font-weight: bold;
@@ -99,11 +109,14 @@ header {
   font-size: 16px;
 }
 /* ASIDE */
-.box-2 {
+aside {
+  text-align: center;
+  padding: 1rem;
+}
+.box-3 {
   display: inline-block;
   width: 100%;
   height: 100%;
-  text-align: center;
   margin-inline: 3rem;
 }
 .blocco-4 {
@@ -113,10 +126,11 @@ header {
 }
 .blocco-4 img {
   width: 100%;
-  height: 320px;
+  height: 340px;
 }
 .blocco-4 p {
   padding-bottom: 1rem;
+  padding-inline: 10px;
 }
 
 /*footer*/
