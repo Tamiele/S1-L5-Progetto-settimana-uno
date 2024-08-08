@@ -58,18 +58,20 @@ header {
 /*MAIN*/
 
 .box-1 {
-  width: 50%;
+  width: 700px;
+  height: 100%;
   display: inline-block;
-  margin-block: 1rem;
+  margin-block: 3rem;
+  margin-inline: 2px;
+  border: 1px;
 }
 .articolo {
-  padding-inline: 9rem;
+  padding-inline: 88px;
 }
 
 .notebook {
-  margin-left: 10rem;
   border-radius: 100%;
-  width: 450px;
+  margin-left: 18rem;
 }
 #h3 {
   margin-top: 1rem;
@@ -96,39 +98,25 @@ header {
   font-style: italic;
   font-size: 16px;
 }
-/* FOOTER */
+/* ASIDE */
+.box-2 {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-inline: 3rem;
+}
 .blocco-4 {
   border: solid thin #dee1e3;
+  margin: 1rem;
+  width: 28%;
 }
 .blocco-4 img {
   width: 100%;
+  height: 320px;
 }
 .blocco-4 p {
   padding-bottom: 1rem;
-}
-.blocco-5 {
-  border: solid thin #dee1e3;
-}
-.blocco-5 img {
-  width: 100%;
-}
-.blocco-5 p {
-  padding-bottom: 1rem;
-}
-.blocco-6 {
-  border: solid thin #dee1e3;
-}
-.blocco-6 img {
-  width: 100%;
-}
-.blocco-6 p {
-  padding-bottom: 1rem;
-}
-.box-2 {
-  display: inline-block;
-  width: 30%;
-  text-align: center;
-  margin: 1rem;
 }
 
 /*footer*/
